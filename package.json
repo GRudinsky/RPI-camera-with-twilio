@@ -1,0 +1,29 @@
+{
+  "name": "baby-monitor",
+  "version": "1.0.0",
+  "description": "live video and temperature from the baby crib",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "nodemon": "^2.0.2",
+    "twilio": "^3.39.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve:back": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GRudinsky/RPI-camera-with-twilio.git"
+  },
+  "author": "grudinsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GRudinsky/RPI-camera-with-twilio/issues"
+  },
+  "homepage": "https://github.com/GRudinsky/RPI-camera-with-twilio#readme"
+}
